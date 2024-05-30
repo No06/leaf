@@ -13,6 +13,8 @@ use crate::{app::SyncDnsClient, proxy::*, session::*};
 pub struct Handler {
     pub address: String,
     pub port: u16,
+    pub username: String,
+    pub password: String,
     pub dns_client: SyncDnsClient,
 }
 
